@@ -4,7 +4,7 @@ title: OSHA
 #  OSHA
 
 
-<small class="github">[osha-website](https://github.com/EU-OSHA/osha-website)</small>
+<small class="github">[osha-website](https://github.com/eu-osha/osha-website)</small>
 
 Build scripts and source code for the Osha project
 
@@ -14,7 +14,7 @@ Status](https://camo.githubusercontent.com/9f6e6c1797d866adafee82039e43a08b025e1
 Climate](https://camo.githubusercontent.com/fd7befc52c28f148b5b15ff0eeb63d0a0f4bfc04/68747470733a2f2f636f6465636c696d6174652e636f6d2f6769746875622f45552d4f5348412f6f7368612d776562736974652f6261646765732f6770612e737667)](https://codeclimate.com/github
 /EU-OSHA/osha-website)
 
-##Pre-requisites
+##  Pre-requisites
 
   1. Install Drush (7.0-dev):
 
@@ -25,7 +25,7 @@ Climate](https://camo.githubusercontent.com/fd7befc52c28f148b5b15ff0eeb63d0a0f4b
     * `sudo ln -s ~/Work/drush/drush /usr/bin/` \- add to PATH
   2. Virtual host for your Drupal instance that points to the docroot/ directory from this repo
 
-##Quick start##
+##  Quick start
 
   1. Copy [conf/config.template.json](https://github.com/EU-OSHA/osha-website/blob/master/conf/config.template.json) to `config.json` and customize to suit your environment
     
@@ -152,8 +152,10 @@ Command usage:
   * `./test.sh ClassNameTest` \- Runs all the test methods from the ClassNameTest test class
   * `./test.sh ClassNameTest testName1,testName2` \- Runs only the two tests from the entire class
 
-##Repository Layout## Breakdown for what each directory/file is used for. See
-also readme inside directories.
+##  Repository Layout
+
+Breakdown for what each directory/file is used for. See also readme inside
+directories.
 
   * [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf)
   * Project specific configuration files
@@ -170,7 +172,7 @@ also readme inside directories.
   * [.gitignore](https://github.com/EU-OSHA/osha-website/blob/master/.gitignore)
   * Contains the a list of the most common excluded files.
 
-##Branches##
+##  Branches
 
 This repo branching model follows the article ["A successful Git branching
 model"](http://nvie.com/posts/a-successful-git-branching-model)
@@ -181,11 +183,11 @@ Summary:
   * _develop_ \- Main development branch. Tests are performed on this branch
   * _release-_ * - Release branches
 
-##Translation workflow##
+##  Translation workflow
 
   * Module page - <https://www.drupal.org/project/tmgmt>
   * FAQs: <https://www.drupal.org/node/1547632>
 
 \-- edw
 
-[Edit this page](https://github.com/EU-OSHA/osha-website/edit/master/readme.md)
+[Edit this page](https://github.com/eu-osha/osha-website/edit/master/readme.md)

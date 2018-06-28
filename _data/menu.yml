@@ -60,11 +60,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: /IT-systems/hwc18/#pre-requisites
+      url: /IT-systems/osha-website/#pre-requisites
     - text: Quick start
-      url: /IT-systems/hwc18/#quick-start
+      url: /IT-systems/osha-website/#quick-start
     text: OSHA
-    url: /IT-systems/hwc18
+    url: /IT-systems/osha-website
   - source: generated
     subitems:
     - text: Setup
