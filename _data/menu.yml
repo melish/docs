@@ -59,10 +59,54 @@
     url: !!python/unicode '/IT-systems/napo'
   - source: generated
     subitems:
-    - text: Pre-requisites
-      url: /IT-systems/osha-website/#pre-requisites
-    - text: Quick start
-      url: /IT-systems/osha-website/#quick-start
+    - text: Definitions, acronyms and abbreviations
+      url: /IT-systems/osha-website/#definitions,-acronyms-and-abbreviations
+    - subitems:
+      - text: Base modules
+        url: /IT-systems/osha-website/#base-modules
+      - text: Content types modules
+        url: /IT-systems/osha-website/#content-types-modules
+      - text: Helper modules
+        url: /IT-systems/osha-website/#helper-modules
+      text: Organisation of repository
+      url: /IT-systems/osha-website/#organisation-of-repository
+    - text: Potentially reusable modules
+      url: /IT-systems/osha-website/#potentially-reusable-modules
+    - subitems:
+      - text: Branches
+        url: /IT-systems/osha-website/#branches
+      - text: 'Release and deployment:'
+        url: '/IT-systems/osha-website/#release-and-deployment:'
+      - text: 'Basic steps of translation proccess:'
+        url: '/IT-systems/osha-website/#basic-steps-of-translation-proccess:'
+      - text: 'Content review statuses:'
+        url: '/IT-systems/osha-website/#content-review-statuses:'
+      - text: Workflow
+        url: /IT-systems/osha-website/#workflow
+      - text: Brief steps description
+        url: /IT-systems/osha-website/#brief-steps-description
+      - text: Our solutions and specific practices
+        url: /IT-systems/osha-website/#our-solutions-and-specific-practices
+      - subitems:
+        - text: 'Export content:'
+          url: '/IT-systems/osha-website/#export-content:'
+        - text: 'Import content:'
+          url: '/IT-systems/osha-website/#import-content:'
+        text: Data exchange with other websites
+        url: /IT-systems/osha-website/#data-exchange-with-other-websites
+      - subitems:
+        - text: Pre-requisites
+          url: /IT-systems/osha-website/#pre-requisites
+        - text: Quick start
+          url: /IT-systems/osha-website/#quick-start
+        - text: Updating an existing instance
+          url: /IT-systems/osha-website/#updating-an-existing-instance
+        - text: Running tests
+          url: /IT-systems/osha-website/#running-tests
+        text: How to set-up a development and a staging environment
+        url: /IT-systems/osha-website/#how-to-set-up-a-development-and-a-staging-environment
+      text: Technical strategy and chosen solutions
+      url: /IT-systems/osha-website/#technical-strategy-and-chosen-solutions
     text: OSHA
     url: /IT-systems/osha-website
   - source: generated
