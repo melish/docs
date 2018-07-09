@@ -16,5 +16,4 @@ title: IT-systems
 * URL
 * VeSafe
 * osha.hwctheme
-* zptlint
 <div style="display:none" class="generated_end"></div>
