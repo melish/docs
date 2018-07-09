@@ -121,29 +121,6 @@ It is possible to use modules from content type and helper groups in other proje
 
 ## Technical strategy and chosen solutions
 
-- ### General versioning and release approach
-
-#### Branches
-
-This repo branching model follows the article ["A successful Git branching model"](http://nvie.com/posts/a-successful-git-branching-model)
-
-Summary:
-
-* _develop_ - Main development branch. Tests are performed on this branch
-* _release_ - Release branch.
-* _master_ - The production branch, updated with each release.
-
-#### Release and deployment:
-
-Release and deployment follows the article ["Release and deployment policy"](https://github.com/EU-OSHA/osha-website/wiki)
-
-Summary:
-
-* We have 2 weeks based (first week staging deploy and second week production deploy) release model.
-* New functionality will be added in develop branch.
-* After testing develop branch will be merged into release branch using GitHub `Pull requests` and created new release using GitHub `Releases`
-* In a week we merge release changes into master branch. The same GitHub `Pull requests` and GitHub `Releases`
-
 
 - ### Translation Management Tools and Workflow
 
