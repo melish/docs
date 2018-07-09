@@ -48,7 +48,7 @@
   - source: generated
     subitems:
     - text: Definitions, acronyms and abbreviations
-      url: /IT-systems/osha-website/#definitions,-acronyms-and-abbreviations
+      url: /IT-systems/osha-website/#definitions-acronyms-and-abbreviations
     - subitems:
       - text: Base modules
         url: /IT-systems/osha-website/#base-modules
