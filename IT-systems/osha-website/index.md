@@ -260,20 +260,6 @@ Step	| Role	| Description
 9|Last Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>The user validates the content:<br/><br/>If the content is validated, the status is set to 'Approved' and the workflows remains with step 10 <br/><br/>If the content is not validated, the status is set to 'Rejected' and the work-flows goes on step 6. <br/><br/>In both cases a notification is send to the 'PM'.
 10|Project Manager|The approvers may request some changes or corrections, that is why the PM has to re-approve the contents. <br/>If the PM considers the content can remain with the workflow she/he sets the status to 'ReadyToPublish' and the workflow goes on step 11.<br/>If the PM rejects the content, the workflow goes back to step 4.
 11|Web Team|The Web Team decides if the content is published or translated
-    
-### Our solutions and specific practices
- 
-* #### Making patches to Drupal core and 3rd party modules
-    * Patches used in project to fix errors found in Drupal core or 3rd party modules.
-    * Patches can be created manually using _git diff_ command `````git diff filenames > patch.name````` or found on module issue page
-    * Each patch should be copied in `patches/module_name` folder
-    * Before updating module require to check if module patched. After updating module require to check if patch still required. 
-    * To apply patch after module update require to run ```patch -p1 < ../patches/module/file.patch``` 
-    * If module patch failed to apply require to merge manually and check if for compatibility.      
-
-* #### Updating custom modules
-    * Content type module uses features module to make possible automated import and export of configuration.
-    * Any configuration changes related to module updating in module `module_name_update_70XX` hook using `features_revert` or `features_revert_module` functions   
 
 ### Data exchange with other websites
 
