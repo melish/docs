@@ -2,6 +2,16 @@
 title: EU-OSHA CMS platform
 ---
 
+## Introduction
+
+## Getting started for users
+
+## Getting started for developers
+
+## Features and architecture overview
+
+### Main features
+
 # EU-OSHA tools
 
 ## 1 Issue tracker
@@ -30,7 +40,9 @@ websites:
 * Dangerous substances
 
 
-# EU-OSHA existing websites and applications
+### Architecture overview
+
+#### EU-OSHA existing websites and applications
 
 Application<br>Website | URLs | Technology <br>/ Hosting | Description
 -----------------------|------|--------------------------|------------
@@ -55,17 +67,5 @@ Extranet | http://extranet.osha.europa.eu/ | Plone /<br>Hosted by<br>EU-OSHA | R
 Virtua<br>RMS | Internal only | Power Builder<br>/ Hosted by<br>EU-OSHA | EU-OSHA Record<br>Management System.
 Virtua<br>Intranet | Internal only | MS<br>SharePoint /<br>Hosted by<br>EU-OSHA | EU-OSHA Intranet.
 Virtua<br>Workspaces | Internal only | MS<br>SharePoint /<br>Hosted by<br>EU-OSHA | EU-OSHA platform for<br>sharing internal documents.
-
-## Introduction
-
-## Getting started for users
-
-## Getting started for developers
-
-## Features and architecture overview
-
-### Main features
-
-### Architecture overview
 
 ## API reference
