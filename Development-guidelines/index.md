@@ -14,9 +14,7 @@ Eionet web based products must follow the Eionet [Website Design Guidelines](htt
 
 ## Development methodology
 
-All development work should be recorded in our task management system [Taskman](https://taskman.eionet.europa.eu).
-
-The methodology to follow is a blend of Scrum and Kanban, see [Working with tickets in Taskman](https://taskman.eionet.europa.eu/projects/netpub/wiki/Working_with_tickets_in_Taskman_(Flow)) for a guide on the workflow.
+All development work should be recorded in our task management system [Jira](https://jira.osha.europa.eu).
 
 ## Our solutions and specific practices
  
