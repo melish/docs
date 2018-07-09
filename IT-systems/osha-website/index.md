@@ -239,10 +239,10 @@ ReadytoPublish | The contents with 'ReadytoPublish' state can be published. Only
 In the first diagram below the general content management workflow is shown.There are several steps that could be skipped, as it is reflected in the workflow.
 <br/>The second diagram contains the detailed and complete content management workflow, including the content statuses and participant actors.
 
-![Simple Content Management Workflow](https://eu-osha.github.io/docs/images/CMF-1.png)
+![Simple Content Management Workflow](https://melish.github.io/docs/images/CMF-1.png)
 **Figure 1 - Simple Content Management Workflow**
      
-![Detailed Content Management Workflow](https://eu-osha.github.io/docs/images/CMF-2.png)
+![Detailed Content Management Workflow](https://melish.github.io/docs/images/CMF-2.png)
 **Figure 2 - Detailed Content Management Workflow**
 
 #### Brief steps description
