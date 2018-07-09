@@ -25,10 +25,10 @@ HWC18| Healthy Workplaces Campaign (2018-2019)
 
 
 ## Organisation of repository
-* ### Repository Layout
+### Repository Layout
 Breakdown for what each directory/file is used for. See also readme inside directories.    
 
-Directory/file | Description
+Directory / File | Description
 --------|--------------------------------------------------
 [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf) |Project specific configuration files
 [docroot](https://github.com/EU-OSHA/osha-website/tree/master/docroot)|Drupal root directory
@@ -42,7 +42,7 @@ Directory/file | Description
 [sites/all/themes/osha_admin](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/themes/osha_admin)|Project specific backend theme
 [sites/all/themes/osha_frontend](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/themes/osha_frontend)|Project specific frontend theme
 
-* ### Custom modules
+### Custom modules
 
 **All custom modules divided into 3 groups:**
 
@@ -109,11 +109,10 @@ osha_alert_service | Alert Service
 ## Potentially reusable modules
 It is possible to use modules from content type and helper groups in other projects.
      
-
 ## Technical strategy and chosen solutions
 
 
-- ### Translation Management Tools and Workflow
+### Translation Management Tools and Workflow
 
 The Translation Management Tool provides a collection of tools for translating content(nodes), taxonomy terms, literals and menu links.
 
@@ -131,64 +130,63 @@ Step|Description
 8| decide if content validation is necessary [optional]. If content validation is required, the list of content validators must be assigend to the job
 9| [optional] review and validate translation for each job item
 10| accept translation and update node 
-
 * Workflow and Functional specifications [https://github.com/EU-OSHA/drupal.tmgmt/blob/master/docs/functional-specifications.pdf](https://github.com/EU-OSHA/drupal.tmgmt/blob/master/docs/functional-specifications.pdf)
 * Module page - [https://www.drupal.org/project/tmgmt](https://www.drupal.org/project/tmgmt)
 * FAQs: [https://www.drupal.org/node/1547632](https://www.drupal.org/node/1547632)
 
-- ### Content management workflow
-    In short, an editor can add information to the website, a reviewer can check it, and a project manager/administrator can publish it. 
-    Each user has a work list with the items he/she has permissions for, and a filter to search for any piece of information.    
+### Content management workflow
+In short, an editor can add information to the website, a reviewer can check it, and a project manager/administrator can publish it. 
+Each user has a work list with the items he/she has permissions for, and a filter to search for any piece of information.    
 
-    There are six content statuses in the content management workflow: Draft, FinalDraft, ToBeReviewed, Rejected, ToBeApproved, Approved and ReadyToPublish. Each content status is detailed below.
-    
-    #### User roles involved in the 'Content Management' workflow.
-    
-    **Editor** 
-    
-    Users with the 'Editor' role will be allowed to:    
-    * Initiate the publish process for a content.
-    * Create new contents belonging to assigned section.
-    * Edit and modify contents with 'Draft' state introduced by herself.
-    * View (but not edit) all the content.
-    * Create a content version and introduce comments.
-    * Promote their contents to 'FinalDraft' state.
+There are six content statuses in the content management workflow: Draft, FinalDraft, ToBeReviewed, Rejected, ToBeApproved, Approved and ReadyToPublish. Each content status is detailed below.
 
-    **Review Manager (Web Team)**
-    
-    Users with the 'Review Manager' role will be allowed to:
-    * Approve or reject contents before the PM performs the corresponding review.
-    * Edit and modify contents, belonging to assigned section.
-    * View the status of content during the whole review process.
-    * Create a content version and introduce comments.
-    * Define the steps included in the whole review process.
-    * Specify the list of approvers for content.
-    * Be notified in each change of status
-    * Change the approvers of the workflow in any status
-    * Change any status of the workflow
-    
-    **Project Manager**
-    
-    Users with the 'Project Manager' role will be allowed to:
-    * Set the content state to 'ToBeApproved', if the content requires approval, 'Ready to publish', or to 'FinalDraft' to be redrafted again.
-    * Create a content version and introduce comments. The Project Manager is in charge of a specific section (or several). S/he could only review the content related to that section or sections.
-    * Be notified when content is approved or rejected by the approvers.
-    * Decide if content is ready to publish or not.
-    * View (but not edit) all the content.
-    
-    **Approver/Final Approver**
-    
-    Users with the 'Approver' role will be allowed to:
-    * Create a content version and introduce comments, only with the contents that have been assigned to her/him.
-    Users with the 'Final Approver' role will be allowed to:
-    * Approve or reject contents, based on the comments received, only with the con-tents that have been assigned to her/him.
-    
-    **Administrator**
-    
-    Users with the 'Administrator' role will be allowed to any of the above plus:
-    * Specify the list of possible approvers.
-    * Change any status of the workflow
-    * Change the people involved in the workflow in any status
+#### User roles involved in the 'Content Management' workflow.
+
+**Editor** 
+
+Users with the 'Editor' role will be allowed to:    
+* Initiate the publish process for a content.
+* Create new contents belonging to assigned section.
+* Edit and modify contents with 'Draft' state introduced by herself.
+* View (but not edit) all the content.
+* Create a content version and introduce comments.
+* Promote their contents to 'FinalDraft' state.
+
+**Review Manager (Web Team)**
+
+Users with the 'Review Manager' role will be allowed to:
+* Approve or reject contents before the PM performs the corresponding review.
+* Edit and modify contents, belonging to assigned section.
+* View the status of content during the whole review process.
+* Create a content version and introduce comments.
+* Define the steps included in the whole review process.
+* Specify the list of approvers for content.
+* Be notified in each change of status
+* Change the approvers of the workflow in any status
+* Change any status of the workflow
+
+**Project Manager**
+
+Users with the 'Project Manager' role will be allowed to:
+* Set the content state to 'ToBeApproved', if the content requires approval, 'Ready to publish', or to 'FinalDraft' to be redrafted again.
+* Create a content version and introduce comments. The Project Manager is in charge of a specific section (or several). S/he could only review the content related to that section or sections.
+* Be notified when content is approved or rejected by the approvers.
+* Decide if content is ready to publish or not.
+* View (but not edit) all the content.
+
+**Approver/Final Approver**
+
+Users with the 'Approver' role will be allowed to:
+* Create a content version and introduce comments, only with the contents that have been assigned to her/him.
+Users with the 'Final Approver' role will be allowed to:
+* Approve or reject contents, based on the comments received, only with the con-tents that have been assigned to her/him.
+
+**Administrator**
+
+Users with the 'Administrator' role will be allowed to any of the above plus:
+* Specify the list of possible approvers.
+* Change any status of the workflow
+* Change the people involved in the workflow in any status
 
 #### Content review statuses:
 
