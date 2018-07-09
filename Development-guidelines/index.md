@@ -32,6 +32,30 @@ The methodology to follow is a blend of Scrum and Kanban, see [Working with tick
     * Content type module uses features module to make possible automated import and export of configuration.
     * Any configuration changes related to module updating in module `module_name_update_70XX` hook using `features_revert` or `features_revert_module` functions   
 
+## General versioning and release approach
+
+### Branches
+
+This repo branching model follows the article ["A successful Git branching model"](http://nvie.com/posts/a-successful-git-branching-model)
+
+Summary:
+
+* _develop_ - Main development branch. Tests are performed on this branch
+* _release_ - Release branch.
+* _master_ - The production branch, updated with each release.
+
+### Release and deployment:
+
+Release and deployment follows the article ["Release and deployment policy"](https://github.com/EU-OSHA/osha-website/wiki)
+
+Summary:
+
+* We have 2 weeks based (first week staging deploy and second week production deploy) release model.
+* New functionality will be added in develop branch.
+* After testing develop branch will be merged into release branch using GitHub `Pull requests` and created new release using GitHub `Releases`
+* In a week we merge release changes into master branch. The same GitHub `Pull requests` and GitHub `Releases`
+
+
 ## Licensing
 
 The license to be used for our projects is the [Mozilla Public License v2](https://www.mozilla.org/en-US/MPL/) or the compatible more used [GNU General Public License v3, GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html), see the historical [explanation on the initial choice of the license](http://www.eionet.europa.eu/software/licenseexplained.html).
