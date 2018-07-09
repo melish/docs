@@ -1,17 +1,5 @@
 - text: Home
   url: /
-- subitems:
-  - text: subitem1
-    url: /ncw/1
-  - text: subitem2
-    url: /ncw/2
-  text: EU-OSHA Corporate website
-  url: /ncw
-- subitems:
-  - text: napo1
-    url: /napo/1
-  text: Napo
-  url: /napo
 - text: The EU-OSHA CMS platform
   url: /EU-OSHA-CMS
 - subitems:
