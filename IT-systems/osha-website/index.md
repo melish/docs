@@ -130,6 +130,7 @@ Step|Description
 8| decide if content validation is necessary [optional]. If content validation is required, the list of content validators must be assigend to the job
 9| [optional] review and validate translation for each job item
 10| accept translation and update node 
+
 * Workflow and Functional specifications [https://github.com/EU-OSHA/drupal.tmgmt/blob/master/docs/functional-specifications.pdf](https://github.com/EU-OSHA/drupal.tmgmt/blob/master/docs/functional-specifications.pdf)
 * Module page - [https://www.drupal.org/project/tmgmt](https://www.drupal.org/project/tmgmt)
 * FAQs: [https://www.drupal.org/node/1547632](https://www.drupal.org/node/1547632)
