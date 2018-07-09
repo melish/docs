@@ -12,23 +12,23 @@ title: EU-OSHA CMS platform
 
 ### Main features
 
-# EU-OSHA tools
+### EU-OSHA tools
 
-## 1 Issue tracker
+#### 1 Issue tracker
 EU-OSHA has its own issue tracker tool (Jira). This tool is used for the tracking of issues with all the
 contractors for all the projects (development, maintenance, service desk…).
 
-## 2 Versioning
+#### 2 Versioning
 GitHub is the tool used by EU-OSHA for versioning: https://github.com/EU-OSHA. All the code
 developed for EU-OSHA projects should be stored in EU-OSHA repository.
 
-## 3 Statistics
+#### 3 Statistics
 Matomo (Piwik)is the tool used for statistics. EU-OSHA has its own instance of Matomo.
 
-## 4 Monitoring
+#### 4 Monitoring
 The monitoring is done with an online tool.
 
-## 5 User Management
+#### 5 User Management
 LDAP is the tool used by EU-OSHA for centralizing the user management for the various hosted
 websites:
 * Corporate website
@@ -38,7 +38,6 @@ websites:
 * Vesafe
 * OSH Wiki
 * Dangerous substances
-
 
 ### Architecture overview
 
